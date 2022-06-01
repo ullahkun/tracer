@@ -900,6 +900,14 @@ Ensure the default browser behavior of the `hidden` attribute.
   background-image: url('tracer/public/img/bg.jpg');
 }
 
+.bg-\[url\(\'\.\/img\/bg\.jpg\'\)\] {
+  background-image: url('./img/bg.jpg');
+}
+
+.bg-\[url\(\'\.\.\/img\/bg\.jpg\'\)\] {
+  background-image: url('../img/bg.jpg');
+}
+
 .bg-cover {
   background-size: cover;
 }
