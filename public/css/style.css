@@ -896,6 +896,10 @@ Ensure the default browser behavior of the `hidden` attribute.
   background-image: url('/public/img/bg.jpg');
 }
 
+.bg-\[url\(\'tracer\/public\/img\/bg\.jpg\'\)\] {
+  background-image: url('tracer/public/img/bg.jpg');
+}
+
 .bg-cover {
   background-size: cover;
 }
